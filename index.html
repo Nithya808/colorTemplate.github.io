@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Color Template</title>
+    <link rel="stylesheet" href="styling/style.css" />
+  </head>
+  <body class="m-5">
+    <header>
+      <div
+        class="search-bar flex border-2 justify-evenly p-5 rounded-xl w-full stroke-stone-950">
+        <label for="search-input" class="search-bar-label"
+          ><img class="icon w-12" src="Icon/search.png" alt=""
+        /></label>
+
+        <input
+          type="search"
+          id="search-input"
+          class="search-bar-input w-full" />
+        <a href="#"
+          ><img src="/Icon/burger-bar.png" alt="" class="icon w-12"
+        /></a>
+      </div>
+      <div class="title text-center">
+        <h1 class="text-[52px] py-[50px]">Treding Color Palettes</h1>
+        <p class="text-[22px] pb-[50px]">
+          Get inspired by thousands of beautiful <br />
+          color schemes and make something cool!
+        </p>
+      </div>
+    </header>
+    <div class="js-text-alert text-alert"></div>
+
+    <div
+      class="grid-container js-grid-container grid xl:grid-cols-4 md:grid-cols-3 sm:gr gap-[40px]">
+      <div class="wrapper grid grid-cols-4">
+        <div class="wrapper-color-templates content-center flex">
+          <div class="color-views" style="background-color: #8ecae6"></div>
+          <div class="color-views" style="background-color: #219ebc"></div>
+          <div class="color-views" style="background-color: #023047"></div>
+          <div class="color-views" style="background-color: #ffb703"></div>
+          <div class="color-views" style="background-color: #fb8500"></div>
+        </div>
+      </div>
+    </div>
+
+    <script src="/data/data.js"></script>
+    <script src="/script/HTMLtemplate.js"></script>
+    <script src="/script/copyOfcolorcode.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </body>
+</html>
